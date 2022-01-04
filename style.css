@@ -8,6 +8,7 @@ h1{font-size: 40px;}
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half{
     width: 50%;
@@ -26,4 +27,10 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.secend-banner{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
