@@ -6,13 +6,13 @@ h1{font-size: 40px;}
 .ahamed{
     color: gold;
 }
-section{
+.fexiable{
     display: flex;
     margin-bottom: 150px;
 }
 .half{
     width: 50%;
-    padding-left: 5%;
+    padding-left:5%;
 }
 .half img{
     width: 80%;
@@ -33,4 +33,21 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exprement{
+   display: flex;
+margin-bottom: 100px;
+}
+.third-border{
+    box-shadow: 10px 10px 40px orange;
+    width: 40%;
+    margin-left: 50px;
+    border-radius: 30px;
+} 
+.exp-bacground{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
 }
