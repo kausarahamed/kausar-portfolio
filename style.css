@@ -43,11 +43,30 @@ margin-bottom: 100px;
     width: 40%;
     margin-left: 50px;
     border-radius: 30px;
+    
 } 
 .exp-bacground{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: 0vmin;
+}
+
+.right{
+    border-left: 4px solid;
+    border-image: linear-gradient(orange blue);
+    border-image-slice: 1;
+    border: 20px;
 }
 footer{
     text-align: center;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
 }
